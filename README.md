@@ -66,7 +66,7 @@ service rabbitmq-server start
 # Bật plugin manager
 rabbitmq-plugins enable rabbitmq_management
 
-=> [{clustering,25672,"::"},{amqp,5672,"::"},{http,15672,"::"}]
+rabbitmqctl status => [{clustering,25672,"::"},{amqp,5672,"::"},{http,15672,"::"}]
 ```
 
 
